@@ -1,0 +1,113 @@
+{
+    "pricingTierVMs": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierVMs"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierSqlServers": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierSqlServers"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierAppServices": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierAppServices"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierStorageAccounts": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierStorageAccounts"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierContainerRegistry": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierContainerRegistry"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierKeyVaults": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierKeyVaults"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierKubernetesService": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierKubernetesService"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierDns": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierDns"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "pricingTierArm": {
+      "type": "String",
+      "metadata": {
+        "displayName": "pricingTierArm"
+      },
+      "allowedValues": [
+        "Standard",
+        "Free"
+      ],
+      "defaultValue": "Standard"
+    },
+    "effect": {
+      "type": "String",
+      "metadata": {
+        "displayName": "Effect",
+        "description": "Enable or disable the execution of the policy"
+      },
+      "allowedValues": [
+        "DeployIfNotExists",
+        "Disabled"
+      ],
+      "defaultValue": "DeployIfNotExists"
+    }
+  }
